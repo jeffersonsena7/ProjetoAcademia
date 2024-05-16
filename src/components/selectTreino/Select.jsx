@@ -8,6 +8,8 @@ import logoFundo from '../../img/logo-tranpartente-grande.png'
 import './Select.css'
 import Baseboard from './../baseboard/Baseboard';
 
+require('dotenv').config();
+
 const Select = () => {
   // Estados para armazenar os dados dos exercícios, estado de carregamento, erro, grupo muscular selecionado,
   // exibição dos detalhes e exercício selecionado
