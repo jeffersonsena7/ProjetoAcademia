@@ -1,0 +1,43 @@
+@media (min-width: 998px) {
+  
+  .container-carousel {
+    display: 'block';
+    width: '700';
+    padding: '30';
+  }
+
+  .item-img-carousel {
+    width: 100%; 
+    display: block;
+    height: 1000px;
+  }
+
+}
+
+@media(min-width: 700px) and  (max-width: 997px) {
+  .container-carousel {
+    display: 'block';
+    width: '700';
+    padding: '30';
+  }
+
+  .item-img-carousel {
+    width: 100%; 
+    display: block;
+    height: 700px;
+  }
+}
+
+@media(min-width: 380px) and  (max-width: 540px) {
+  .container-carousel {
+    display: 'block';
+    width: '700';
+    padding: '30';
+  }
+
+  .item-img-carousel {
+    width: 100%; 
+    display: block;
+    height: 400px;
+  }
+}

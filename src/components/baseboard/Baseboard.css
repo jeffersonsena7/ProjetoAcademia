@@ -1,0 +1,49 @@
+.baseboard-lista {
+  display: flex;
+  padding-left: 0px;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+  color: #fff;
+}
+.baseboard-lista a {
+  text-decoration: none;
+  color: #fff;
+}
+.baseboard-lista li:hover{
+  color: red;
+  cursor: pointer;
+}
+.baseboard-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.8s;
+  color: rgb(119, 119, 118);
+}
+.baseboard-link:hover {
+  color: tomato;
+}
+
+.logo-site {
+  width: 64px;
+  height: auto;
+  margin:auto;
+  display: flex; 
+  animation: rotante infinite 4s linear; 
+}
+@keyframes rotante {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {transform: rotateY(360deg);}
+}
+
+.icon {
+  font-size: 20px; /* Tamanho do ícone */
+  transition: transform 0.5s ease; /* Transição suave para a animação */
+}
+
+.icon:hover {
+  transform: rotate(360deg); /* Gira o ícone em 360 graus quando o mouse passa por cima */
+}

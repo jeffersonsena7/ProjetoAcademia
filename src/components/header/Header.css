@@ -1,0 +1,347 @@
+@media(min-width: 1101px)  {
+  .container-header {
+    background-color: #f12715;
+    height: 90px;
+  }
+  .container-header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .container-header-menu li {
+    list-style: none;
+    font-size: 30px;
+    margin: 0 8px;
+    padding: 15px;
+    color: #ffff;
+  }
+  .header-menu-div3 .icon-hover{
+    font-size: 30px;
+  }
+  .header-menu-div2 .icon-hover {
+    font-size: 30px;
+  }
+  .header-menu-div1 .icon-hover {
+    font-size: 30px;
+  }
+  .icons:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  .icons-header {
+    font-size: 40px;
+    
+  }
+  .icons-header:hover {
+    animation: rotante infinite 2s linear; 
+  }
+  @keyframes rotante {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {transform: rotateY(360deg);}
+  }
+
+  .container-header-menu2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header-menu-div1 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div2 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div3 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div1:hover {
+    color: #000;
+    cursor: pointer;  
+  }
+  .header-menu-div2:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  .header-menu-div3:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .menu-img {
+    margin-top: 0px;
+    width: 7%;
+    height: auto;
+    border-radius: 20px;
+    animation: rotante infinite 5s linear;
+  }
+  @keyframes rotante {
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+}
+
+@media(min-width: 935px) and  (max-width: 1100px){
+
+  .container-header {
+    background-color: #f12715;
+    height: 8vh;
+  }
+  .container-header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .container-header-menu li {
+    list-style: none;
+    font-size: 34px;
+    margin: 0 8px;
+    padding: 15px;
+    color: #ffff;
+  }
+  .header-menu-div3 .icon-hover{
+    font-size: 40px;
+  }
+  .header-menu-div2 .icon-hover {
+    font-size: 40px;
+  }
+  .header-menu-div1 .icon-hover {
+    font-size: 40px;
+  }
+    
+
+  .icons:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .container-header-menu2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-menu-div1 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div2 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div3 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div1:hover {
+    color: #000;
+    cursor: pointer;  
+  }
+  .header-menu-div2:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  .header-menu-div3:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .menu-img {
+    margin-top: 0px;
+    width: 9%;
+    height: auto;
+    border-radius: 20px;
+    animation: rotante infinite 5s linear;
+  }
+  @keyframes rotante {
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+}
+
+@media(min-width: 541px) and  (max-width: 934px){
+
+  .container-header {
+    background-color: #f12715;
+    height: 5em;
+  }
+  .container-header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .container-header-menu li {
+    list-style: none;
+    font-size: 34px;
+    margin: 0 8px;
+    padding: 15px;
+    color: #ffff;
+  }
+  .header-menu-div3 .icon-hover{
+    font-size: 40px;
+  }
+  .header-menu-div2 .icon-hover {
+    font-size: 40px;
+  }
+  .header-menu-div1 .icon-hover {
+    font-size: 40px;
+  }
+    
+
+  .icons:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .container-header-menu2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-menu-div1 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div2 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div3 {
+    text-decoration: none;
+    color: white;
+  }
+  .header-menu-div1:hover {
+    color: #000;
+    cursor: pointer;  
+  }
+  .header-menu-div2:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  .header-menu-div3:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .menu-img {
+    margin-top: 0px;
+    width: 5%;
+    height: auto;
+    border-radius: 20px;
+    animation: rotante infinite 5s linear;
+  }
+  @keyframes rotante {
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+}
+
+@media(min-width: 380px) and  (max-width: 540px) {
+  .container-header {
+    background-color: #f12715;
+    height: 50px;
+  }
+  .container-header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 0px;
+    
+  }
+  .container-header-menu li {
+    list-style: none;
+    font-size: large;
+    font-size: 15px;
+    margin: 0 8px;
+    padding: 15px;
+    color: #ffff;
+  }
+  .icons:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .container-header-menu2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+
+  }
+  .header-menu-div1 {
+    text-decoration: none;
+    color: #ffff;
+  }
+  .header-menu-div2 {
+    text-decoration: none;
+    color: #ffff;
+  }
+  .header-menu-div3 {
+    text-decoration: none;
+    color: #ffff;
+  }
+  .header-menu-div1:hover {
+    color: #000;
+    cursor: pointer;  
+  }
+  .header-menu-div2:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  .header-menu-div3:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .menu-img {
+    margin-top: 0px;
+    width: 9%;
+    height: auto;
+    border-radius: 20px;
+    animation: rotante infinite 5s linear;
+  }
+  @keyframes rotante {
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+}
