@@ -35,7 +35,7 @@ const Select = () => {
           params: { Muscles: grupoMuscular },
           headers: {
             "X-RapidAPI-Key":
-              "440006bfa0mshff2738ddaa1dba3p1dc4cajsnaaff1359b434",
+              process.env.RAPIDAPI_KEY,
             "X-RapidAPI-Host": "work-out-api1.p.rapidapi.com",
           },
         };
