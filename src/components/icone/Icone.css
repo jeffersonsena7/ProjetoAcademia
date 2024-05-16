@@ -5,29 +5,28 @@
     background-color: #fff;
     height: 46vh;
   }
-  
+
   .container-icones section {
     background-color: #fff;
     display: flex;
     align-items: flex-end;
-    
   }
   .icon-img {
     width: 15vw;
     border-radius: 50%;
   }
-  
+
   .icon-img2 {
     width: 15vw;
     border-radius: 20px;
     animation: rotante infinite 4s linear;
   }
-  @keyframes rotante{
+  @keyframes rotante {
     from {
-      transform: rotateY(0deg)
+      transform: rotateY(0deg);
     }
-    to { 
-      transform: rotateY(360deg)
+    to {
+      transform: rotateY(360deg);
     }
   }
   .icon-img3 {
@@ -43,29 +42,28 @@
     background-color: #fff;
     height: 16em;
   }
-  
+
   .container-icones section {
     background-color: #fff;
     display: flex;
     align-items: flex-end;
-    
   }
   .icon-img {
     width: 15vw;
     border-radius: 50%;
   }
-  
+
   .icon-img2 {
     width: 15vw;
     border-radius: 20px;
     animation: rotante infinite 4s linear;
   }
-  @keyframes rotante{
+  @keyframes rotante {
     from {
-      transform: rotateY(0deg)
+      transform: rotateY(0deg);
     }
-    to { 
-      transform: rotateY(360deg)
+    to {
+      transform: rotateY(360deg);
     }
   }
   .icon-img3 {
@@ -74,37 +72,35 @@
   }
 }
 
-
-@media(min-width: 935px) and  (max-width: 1100px) {
+@media (min-width: 935px) and (max-width: 1100px) {
   .container-icones {
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    height: 15vh;
+    height: 12em;
   }
-  
+
   .container-icones section {
     background-color: #fff;
     display: flex;
     align-items: flex-end;
-    
   }
   .icon-img {
     width: 15vw;
     border-radius: 50%;
   }
-  
+
   .icon-img2 {
     width: 15vw;
     border-radius: 20px;
     animation: rotante infinite 4s linear;
   }
-  @keyframes rotante{
+  @keyframes rotante {
     from {
-      transform: rotateY(0deg)
+      transform: rotateY(0deg);
     }
-    to { 
-      transform: rotateY(360deg)
+    to {
+      transform: rotateY(360deg);
     }
   }
   .icon-img3 {
@@ -113,36 +109,35 @@
   }
 }
 
-@media(min-width: 541px) and  (max-width: 934px) {
+@media (min-width: 541px) and (max-width: 934px) {
   .container-icones {
     display: flex;
     justify-content: space-around;
     background-color: #fff;
     height: 10em;
   }
-  
+
   .container-icones section {
     background-color: #fff;
     display: flex;
     align-items: flex-end;
-    
   }
   .icon-img {
     width: 15vw;
     border-radius: 50%;
   }
-  
+
   .icon-img2 {
     width: 15vw;
     border-radius: 20px;
     animation: rotante infinite 4s linear;
   }
-  @keyframes rotante{
+  @keyframes rotante {
     from {
-      transform: rotateY(0deg)
+      transform: rotateY(0deg);
     }
-    to { 
-      transform: rotateY(360deg)
+    to {
+      transform: rotateY(360deg);
     }
   }
   .icon-img3 {
@@ -151,36 +146,35 @@
   }
 }
 
-@media(min-width: 380px) and  (max-width: 540px) {
+@media (min-width: 380px) and (max-width: 540px) and (max-height: 800px){
   .container-icones {
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    height: 15vh;
+    height: 25vh;
   }
-  
+
   .container-icones section {
     background-color: #fff;
     display: flex;
     align-items: flex-end;
-    
   }
   .icon-img {
     width: 15vw;
     border-radius: 50%;
   }
-  
+
   .icon-img2 {
     width: 15vw;
     border-radius: 20px;
     animation: rotante infinite 4s linear;
   }
-  @keyframes rotante{
+  @keyframes rotante {
     from {
-      transform: rotateY(0deg)
+      transform: rotateY(0deg);
     }
-    to { 
-      transform: rotateY(360deg)
+    to {
+      transform: rotateY(360deg);
     }
   }
   .icon-img3 {

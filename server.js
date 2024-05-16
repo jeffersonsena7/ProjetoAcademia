@@ -13,6 +13,8 @@ app.use(bodyParser.json());
 app.use(cors()); // Use o middleware cors para resolver problemas de CORS
 
 // Configure o Twilio com suas credenciais
+// const accountSid = 'AC0fcdc67a01a12a45c3fca06d11c931de';
+// const authToken = '81c9bd9d2d760ee7eb9d870cc1b92a26';
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = new twilio(accountSid, authToken);

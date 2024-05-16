@@ -8,7 +8,6 @@ import logoFundo from '../../img/logo-tranpartente-grande.png'
 import './Select.css'
 import Baseboard from './../baseboard/Baseboard';
 
-require('dotenv').config();
 
 const Select = () => {
   // Estados para armazenar os dados dos exercícios, estado de carregamento, erro, grupo muscular selecionado,
@@ -37,7 +36,7 @@ const Select = () => {
           params: { Muscles: grupoMuscular },
           headers: {
             "X-RapidAPI-Key":
-              process.env.RAPIDAPI_KEY,
+            "440006bfa0mshff2738ddaa1dba3p1dc4cajsnaaff1359b434",
             "X-RapidAPI-Host": "work-out-api1.p.rapidapi.com",
           },
         };

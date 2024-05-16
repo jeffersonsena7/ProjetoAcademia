@@ -23,11 +23,38 @@
   border-radius: 1rem;
 }
 
-.baseboard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 10px;
-  background-color: #000000bd;
-  color: #fff;
+@media (min-width: 992px){
+  .baseboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #000000bd;
+    color: #fff;
+  }
+}
+
+
+@media (min-width: 541px) and (max-width: 993px) and (max-height: 993px){
+  .baseboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #000000bd;
+    color: #fff;
+  }
+}
+
+
+@media (min-width: 380px) and (max-width: 540px) and (max-height: 900px){
+  .baseboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #000000bd;
+    color: #fff;
+    margin-bottom: 0px;
+  }
 }

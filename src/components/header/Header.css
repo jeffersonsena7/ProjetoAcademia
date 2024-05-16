@@ -101,7 +101,7 @@
 
   .container-header {
     background-color: #f12715;
-    height: 8vh;
+    height: 5em;
   }
   .container-header-menu {
     display: flex;
@@ -113,19 +113,19 @@
   }
   .container-header-menu li {
     list-style: none;
-    font-size: 34px;
+    font-size: 24px;
     margin: 0 8px;
     padding: 15px;
     color: #ffff;
   }
   .header-menu-div3 .icon-hover{
-    font-size: 40px;
+    font-size: 30px;
   }
   .header-menu-div2 .icon-hover {
-    font-size: 40px;
+    font-size: 30px;
   }
   .header-menu-div1 .icon-hover {
-    font-size: 40px;
+    font-size: 30px;
   }
     
 
