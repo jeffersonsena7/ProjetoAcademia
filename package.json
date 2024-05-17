@@ -2,6 +2,7 @@
   "name": "projeto-academia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/jeffersonsena7/ProjetoAcademia",
   "dependencies": {
     "@react-email/html": "^0.0.8",
     "@react-email/render": "^0.0.13",
