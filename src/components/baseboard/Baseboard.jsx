@@ -6,8 +6,7 @@ import logoSite from '../../img/logo-tranpartente.png'
 
 const Baseboard = () => {
   return (
-    <div className='container-baseboard1'>
-      <footer className='container-baseboard'>
+      <div className='container-baseboard'>
         <section>
           <img  className='logo-site'src={logoSite} alt="Logo do site" />
           <ul className='baseboard-lista'>
@@ -48,8 +47,7 @@ const Baseboard = () => {
             </a>
           </p>
         </section>
-      </footer>
-    </div>
+      </div>
   );
 };
 
