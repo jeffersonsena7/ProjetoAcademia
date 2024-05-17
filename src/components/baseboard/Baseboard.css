@@ -49,18 +49,21 @@
 }
 
 @media (min-width: 350px) and (max-width: 540px) and (max-height: 934px) {
-  .baseboard-lista {
+  .container-baseboard {
     display: flex;
     flex-direction: column;
+  }
+  .baseboard-lista {
+    display: flex;
     padding-left: 0px;
     gap: 20px;
     list-style: none;
     font-size: 20px;
-    color: #f30808;  
+    color: #fff;  
   }
   .baseboard-lista a {
     text-decoration: none;
-    color: #fff;
+    color: #4502fc;
   }
   .baseboard-lista li:hover{
     color: red;
