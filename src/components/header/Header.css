@@ -271,24 +271,23 @@
   }
 }
 
-@media(min-width: 380px) and  (max-width: 540px) {
+@media(min-width: 350px) and  (max-width: 540px) {
   .container-header {
     background-color: #f12715;
-    height: 50px;
+    height: 3em;
   }
   .container-header-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 0px;
     
   }
   .container-header-menu li {
     list-style: none;
-    font-size: large;
-    font-size: 15px;
-    margin: 0 8px;
+    font-size: 12px;
+    margin: 0 25px;
     padding: 15px;
     color: #ffff;
   }

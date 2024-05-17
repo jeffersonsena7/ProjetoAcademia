@@ -48,7 +48,7 @@
   transform: rotate(360deg); /* Gira o ícone em 360 graus quando o mouse passa por cima */
 }
 
-@media (min-width: 380px) and (max-width: 540px) and (max-height: 934px) {
+@media (min-width: 350px) and (max-width: 540px) and (max-height: 934px) {
   .baseboard-lista {
     display: flex;
     padding-left: 0px;
