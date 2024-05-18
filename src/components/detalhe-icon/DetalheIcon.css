@@ -1,6 +1,5 @@
-@media(min-width: 1101px){
-
-  .container-detalhe-title{
+@media (min-width: 1101px) {
+  .container-detalhe-title {
     display: flex;
     justify-content: space-around;
   }
@@ -11,7 +10,6 @@
   }
 
   .container-detalhe-p {
-
     display: flex;
     justify-content: space-around;
   }
@@ -22,8 +20,8 @@
   }
 }
 
-@media(min-width: 801px) and  (max-width: 1100px) {
-  .container-detalhe-title{
+@media (min-width: 801px) and (max-width: 1100px) {
+  .container-detalhe-title {
     display: flex;
     justify-content: space-around;
   }
@@ -47,8 +45,8 @@
   }
 }
 
-@media(min-width: 541px) and  (max-width: 800px) {
-  .container-detalhe-title{
+@media (min-width: 541px) and (max-width: 800px) {
+  .container-detalhe-title {
     display: flex;
     justify-content: space-around;
   }
@@ -60,7 +58,6 @@
   }
 
   .container-detalhe-p {
-
     display: flex;
     justify-content: space-around;
   }
@@ -68,24 +65,23 @@
     padding-top: 10px;
     text-align: center;
     max-width: 50vw;
-    font-size: 1.4em;
+    font-size: 1.4em; 
   }
 }
 
-@media(min-width: 350px) and  (max-width: 540px) and (max-height: 934px){
-  .container-detalhe-title{
+@media (min-width: 350px) and (max-width: 540px) and (max-height: 934px) {
+  .container-detalhe-title {
     display: flex;
     justify-content: space-around;
   }
-  
+
   .container-detalhe-title h2 {
     padding-top: 30px;
     font-size: 10px;
     font-weight: bold;
   }
-  
+
   .container-detalhe-p {
-  
     display: flex;
     justify-content: space-around;
   }
@@ -94,5 +90,6 @@
     padding-top: 5px;
     text-align: center;
     max-width: 40vw;
+    padding-bottom: 10em;
   }
 }
