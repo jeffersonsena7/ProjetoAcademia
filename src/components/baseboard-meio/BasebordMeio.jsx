@@ -1,4 +1,4 @@
-import './BaseboardMeio.css'
+import './BaseboardMeio.css';
 
 const BaseboardMeio = () => {
   return ( 
