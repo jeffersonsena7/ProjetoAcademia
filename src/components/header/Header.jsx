@@ -15,7 +15,7 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrolled = window.scrollY;
-      const scrollThreshold = 30; // Defina o ponto de rolagem para esconder o cabeçalho
+      const scrollThreshold = 10; // Defina o ponto de rolagem para esconder o cabeçalho
 
       if (scrolled > scrollThreshold) {
         setShowHeader(false);
