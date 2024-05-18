@@ -77,7 +77,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    height: 12em;
+    height: 22em;
   }
 
   .container-icones section {
@@ -151,7 +151,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    height: 45vh;
+    height: 45em;
   }
 
   .container-icones section {

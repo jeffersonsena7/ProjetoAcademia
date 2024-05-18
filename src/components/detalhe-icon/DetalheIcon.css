@@ -29,7 +29,7 @@
   }
 
   .container-detalhe-title h2 {
-    padding-top: 30px;
+    padding-top: 4em;
     font-size: 1.3em;
     font-weight: bolder;
   }
@@ -39,10 +39,11 @@
     justify-content: space-around;
   }
   .container-detalhe-p p {
-    padding-top: 10px;
+    padding-top: 25px;
     text-align: center;
     max-width: 30vw;
     font-size: 1em;
+    padding-bottom: 14em;
   }
 }
 
