@@ -10,7 +10,7 @@ const MyCarousel = () => {
   return(
     <div className='container-carousel'>
       <Carousel>
-        <Carousel.Item  interval={500}>
+        <Carousel.Item  interval={1000}>
           <img
             className='item-img-carousel'
             src={Ingrid2}
@@ -21,7 +21,7 @@ const MyCarousel = () => {
             <p>Novidades em treinos e saúde para a sua vida.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1000}>
           <img
             className='item-img-carousel'
             src={Ingrid}
@@ -32,7 +32,7 @@ const MyCarousel = () => {
             <p>Novidades em treinos e saúde para a sua vida 2.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1000}>
           <img
             className='item-img-carousel'
             src={Ingrid3}
