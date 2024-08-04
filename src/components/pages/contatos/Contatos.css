@@ -301,9 +301,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 33.2%;
+    margin-top: 41%;
     padding-top: 56px;
-    padding-bottom: 3em;
+    padding-bottom: 9em;
     background-color: #000000bd;
   }
 }
