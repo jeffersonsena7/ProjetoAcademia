@@ -1,43 +1,47 @@
-import Menu from './../../menu/Menu';
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import Menu from "./../../menu/Menu";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-import './Contatos.css'
-import { MyEmail } from '../../email/MyEmail';
-import Baseboard from './../../baseboard/Baseboard';
-
+import "./Contatos.css";
+import { MyEmail } from "../../email/MyEmail";
+import Baseboard from "./../../baseboard/Baseboard";
 
 const Contatos = () => {
-  return ( 
-    
+  return (
     <>
-      <Menu/>
+      <Menu />
       <div>
-        <section className='container-contatos'>
+        <section className="container-contatos">
           <ul>
-            <div className='icon-contatos'>
-              <a href="https://www.facebook.com/Jefferson.Joseane/" target='_blanc'>
+            <div className="icon-contatos">
+              <a
+                href="https://www.facebook.com/Jefferson.Joseane/"
+                target="_blanc"
+              >
                 <li>
-                  <FaFacebook/>
+                  <FaFacebook />
                 </li>
               </a>
               <p>jefferson.sena</p>
             </div>
           </ul>
           <ul>
-            <div className='icon-contatos'>
-              <a href="https://www.instagram.com/jeffersonjoseane/" target='_blanc'>
+            <div className="icon-contatos">
+              <a
+                href="https://www.instagram.com/jeffersonjoseane/"
+                target="_blanc"
+              >
                 <li>
-                  <FaInstagram/>
+                  <FaInstagram />
                 </li>
               </a>
               <p>jefferson.sena</p>
             </div>
           </ul>
           <ul>
-            <div className='icon-contatos'>
-              <a href="https://contate.me/jeffersonsena" target='_blanc'>
+            <div className="icon-contatos">
+              <a href="https://contate.me/jeffersonsena" target="_blanc">
                 <li>
-                  <FaWhatsapp/>
+                  <FaWhatsapp />
                 </li>
               </a>
               <p>(83)98803-8630</p>
@@ -45,15 +49,14 @@ const Contatos = () => {
           </ul>
         </section>
       </div>
-      <div className='minha-pagina'>
-        <MyEmail/>
+      <div className="minha-pagina">
+        <MyEmail />
       </div>
-      <div className='baseboard-contatos'>
-        <Baseboard/>
+      <div className="baseboard-contatos">
+        <Baseboard />
       </div>
-      
-      
-    </> );
-}
- 
+    </>
+  );
+};
+
 export default Contatos;
